@@ -61,7 +61,7 @@ const registerUser = asyncHandler( async (req,res) => {
         new ApiResponse(200, createdUser, "User created succesfully")
     );
 
-    
+
 
 })
 
@@ -77,4 +77,7 @@ export {registerUser}
     remove passoword and refresh token field
     chcek for user creattion
     return response
+    
 */
+
+// Comment block to test weather email is added for commits
